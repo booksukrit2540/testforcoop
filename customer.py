@@ -1,6 +1,0 @@
-print('customers')
-print('Sukrit')
-print('Nattawut')
-print('Arnupap')
-print('puritat')
-print ('who i am')
