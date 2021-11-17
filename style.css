@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    min-height: 100vh;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.bg::after{
+content: "";
+position: absolute;
+top: 0;
+left: 0; 
+width: 100%;
+height: 100%;
+background: url(9758859.jpeg);
+z-index: -1;
+background-size: cover;
+background-position: center;
+filter: brightness(45%);
+}
+.menu{
+    position: relative;
+    width: 85%;
+    height: 15vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a{
+font-size: 4rem;
+color: white;
+}
+.menu ul{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.menu ul li{
+    padding: 0 17px;
+}
+.menu ul li a{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.content{
+    width: 85%;
+    margin: 0 auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.content .header,.grid-card{
+    width: 50%;
+    position: relative;
+}
+.content .header{
+color: aliceblue;
+padding: 20px;
+}
+.header h3{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+
+}
+.content .header h3 i{
+    color: orange;
+}
+.header h1{
+    font-size: 5.5rem;
+}
+.header p{
+    opacity: .7;
+}
+.grid-card{
+    margin-left: 180px;
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-gap: 35px;
+}
+.grid-card .box{
+    width: 100%;
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    transition: .3s;
+}
+.bg1{
+    background-image: url('https://images.pexels.com/photos/1834399/pexels-photo-1834399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+.bg2{
+    background-image: url(https://images.pexels.com/photos/3355732/pexels-photo-3355732.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.bg3{
+    background-image: url(https://images.pexels.com/photos/1139040/pexels-photo-1139040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.bg4{
+    background-image: url(https://images.pexels.com/photos/620337/pexels-photo-620337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.content .box h2{
+    position: absolute;
+    bottom: 50px;
+    padding-left: 30px;
+    color: antiquewhite;
+}
+.content .box:hover{
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+.header button{
+    border: solid 1px white;
+    background: none;
+    color: antiquewhite;
+    font-size: 1.5rem;
+    padding: 5px 15px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+.header button:hover{
+    background: #fff;
+    color: black;
+
+}
