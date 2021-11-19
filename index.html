@@ -1,34 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <link rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lopburi</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Web-FlexBox</title>
 </head>
-
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top nav">
-        <ui id="primary-navigation" class="primary-navigation flex">
-            <li class="active">
-                <a href="index.html">
-                    <span aria-hidden="true">00</span>ที่พัก
-                </a>
-            </li>
-            <li class="active">
-                <a href="index.html">
-                    <span aria-hidden="true">11</span>สถานที่เเนะนำ
-                </a>
-            </li>
-            <li class="active">
-                <a href="index.html">
-                    <span aria-hidden="true">00</span>การจอง
-                </a>
-            </li>
-        </ui>
-    </nav>
-</body>
+    <header>
+        <a href=""><i class="fab fa-slack"></i></a>
+        <nav>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>  
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="bg-img" style="background-image: url(https://images.pexels.com/photos/1447495/pexels-photo-1447495.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);"></div>
+            <h1>Responsive Flexbox Template</h1>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet</h3>
+            <a class="btn" href="">Click Here</a>
+        
+    </section>
 
+    <section class="our-work">
+        <h3 class="title">Some of our-work</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi odit eum aliquam accusantium enim mollitia minus minima ad nobis quod.</p>
+        <hr>
+
+        <ul class="grid">
+            <li class="small" style="background-image: url(https://images.pexels.com/photos/64736/flowers-plant-bloom-daisies-64736.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);"></li>
+            <li class="large" style="background-image: url(https://images.pexels.com/photos/97854/pexels-photo-97854.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);"></li>
+            <li class="large" style="background-image: url(https://images.pexels.com/photos/2873241/pexels-photo-2873241.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);"></li>
+            <li class="small" style="background-image: url(https://images.pexels.com/photos/59984/daisies-white-flower-face-59984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);"></li>
+        </ul>
+    </section>
+
+    <section class="features">
+        <h3 class="title">Feature and Service</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus culpa maxime, sapiente vel tempore asperiores dicta veritatis voluptatum fugit blanditiis!</p>
+
+        <ul class="grid">
+            <li>
+                <i class="fa fa-camera-retro"></i>
+                <h4>Photography</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, repudiandae quas reiciendis nulla iste facere.</p>
+            </li>
+            <li>
+                <i class="fa fa-cubes"></i>
+                <h4>Developer</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, repudiandae quas reiciendis nulla iste facere.</p>
+            </li>
+            <li>
+                <i class="fa fa-newspaper"></i>
+                <h4>Content</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, repudiandae quas reiciendis nulla iste facere.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="review">
+        <h3 class="title">What other say:</h3><br>
+
+        <p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, maiores.</p>
+        <p class="people"> Anonymous</p>
+
+        <p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, maiores.</p>
+        <p class="people"> Anonymous</p>
+
+        <p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, maiores.</p>
+        <p class="people"> Anonymous</p>
+    </section>
+
+    <section class="contact">
+        <h3 class="title">Join our</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime blanditiis earum perspiciatis harum quo iusto pariatur consectetur non ex officiis eos dolore.</p>
+        <hr>
+        <form action="">
+            <input type="email" placeholder="Your Emailaddress">
+            <a href="#" class="btn">Subcribe</a>
+        </form>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href=""><i class="fab fa-facebook"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href=""><i class="fab fa-line"></i></a></li>
+            <li><a href=""><i class="fab fa-google"></i></a></li>
+        </ul>
+        <h4>Copyright &copy; 2021</h4>
+    </footer>
+    
+</body>
 </html>
