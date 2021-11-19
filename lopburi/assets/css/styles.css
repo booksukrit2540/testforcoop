@@ -106,7 +106,19 @@ img {
   justify-content: space-between;
   align-items: center;
 }
+.logo {
+  -webkit-box-align: center;
+outline-color: initial;
+outline-style: none;
+outline-width: initial;
+align-items: center;
+display: inline-flex;
+height: 80px;
+position: relative;
+vertical-align: middle;
+z-index: 1;
 
+}
 .nav__img {
   width: 32px;
   border-radius: 50%;
